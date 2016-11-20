@@ -22,10 +22,18 @@ All of these steps are performed inside Sublime.
           </body>
         </html>
 
-
+  ![](../assets/14.png)
 
 1.  Repeat steps 1-3 to create a file called **main.css**
 2.  Enter the following CSS and then save again:
 
-| body { |
-| --- |
+        body {
+          background-color: lightgreen;
+        }
+        h1, h2, h3, h4, h5, h6 {
+          color: darkgreen;
+        }
+1. Repeat steps 1-3 to create a file called index.js  (it remains empty)
+2. Now in your browser, navigate to your index.html file: **file:///<yourHomeDirectory>/CodingAndCocktails/packagesproject/index.html**
+
+Your rendered HTML file should look like this:
