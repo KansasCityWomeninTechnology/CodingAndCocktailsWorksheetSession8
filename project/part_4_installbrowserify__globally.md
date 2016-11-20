@@ -2,10 +2,10 @@
 
 Browserify will allow you to easily consume new dependencies with the javascript **require** statement.
 
-1.  On the command line, type: **sudo npm install -g browserify**
+1.  On the command line, type: ``sudo npm install -g browserify``
 2.  It will show a progress bar (of sorts). If it prompts you for a password, enter it.
 
-| **Sudo warnings &amp; passwords** |
-| --- |
+  ![](../assets/12.png)
 
 1.  When it’s done, it should look something like this:
+![](../assets/image15.png)
