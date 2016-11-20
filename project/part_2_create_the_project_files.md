@@ -37,3 +37,5 @@ All of these steps are performed inside Sublime.
 2. Now in your browser, navigate to your index.html file: **file:///<yourHomeDirectory>/CodingAndCocktails/packagesproject/index.html**
 
 Your rendered HTML file should look like this:
+
+![](../assets/image07.png)
