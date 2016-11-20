@@ -4,11 +4,8 @@ In order to use NPM, you have to install NodeJS. (We won’t be writing a NodeJS
 
 1.  Open your terminal / command line
 
-| **Helpful tip:** |
-| --- |
+![](../assets/3.png)
 
-1.  Type: **node -v**
+1.  Type: ``node -v``
 2.  If you get a version number, you’re good. Proceed to Part 1.
-
-| **Command not found** |
-| --- |
+[![](../assets/4.png)](http://nodejs.org)
