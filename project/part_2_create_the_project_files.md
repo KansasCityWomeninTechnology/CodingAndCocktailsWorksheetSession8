@@ -38,4 +38,4 @@ All of these steps are performed inside Sublime.
 
 Your rendered HTML file should look like this:
 
-![](../assets/image07.png)
+![](../assets/image10.png)
