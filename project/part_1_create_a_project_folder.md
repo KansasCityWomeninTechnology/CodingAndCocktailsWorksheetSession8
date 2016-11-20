@@ -2,26 +2,16 @@
 
 When you’re starting from scratch, an empty project is simply an empty folder. You could do that visually (using your file explorer) but let’s do it on the command line.
 
-| **Illegal nested table :** Command line woes?Revisit the command line worksheet from March: bit.ly/cmdln |  |
-| --- | --- |
+[![](../assets/5.png)](http://bit.ly/cmdln)
 
-1.  Navigate to your CodingAndCocktails folder: **cd &lt;yourHomeDirectory&gt;/CodingAndCocktails**
+1.  Navigate to your CodingAndCocktails folder: ``cd [yourHomeDirectory]/CodingAndCocktails``
+![](../assets/6.png)
 
-| **Illegal nested table :** Helpful tips:Your home directory is:Mac: /users/<yourusername>Windows: C:/Users/<yourusername>Command to change folders: cd <foldertogoto>Command to make a folder: mkdir <newfolder>Most command line applications are not case sensitive, but a few of them are!</newfolder></foldertogoto></yourusername></yourusername> |
-| --- |
+1.  Make a new folder called packagesproject: ``mkdir packagesproject``
+2.  Move into that new folder: ``cd packagesproject``
 
-1.  Make a new folder called packagesproject: **mkdir packagesproject**
-2.  Move into that new folder: **cd packagesproject**
+![](../assets/7.png)
 
-| **Illegal nested table :** Helpful tip:If you start typing the name of a folder or file, hit tab and it will autocomplete |
-| --- |
+1.  Open the Sublime text editor from here: ``subl .``
 
-1.  Open the Sublime text editor from here: **subl .**
-
-| **Command not found** |
-| --- |
-
-Your Sublime application should look like this:
-
-|  |
-| --- |
+![](../assets/8.png)
