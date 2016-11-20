@@ -4,10 +4,12 @@ Your index.js file already contains one way of selecting an element (document.qu
 
 1.  In Sublime, open the **index.js** file and place the following code anywhere in the file:
 
-| var $ = require(&#039;jquery&#039;); |
-| --- |
+        var $ = require('jquery');
+        $("h4").css("color", "white");
 
-1.  On the command line, type the browserify command again: **browserify index.js &gt; bundle.js**
-2.  Refresh (or reopen) index.html in your browser.
+1.  On the command line, type the browserify command again: ``browserify index.js > bundle.js``
+2.  Refresh (or reopen) **index.html** in your browser.
 
 Your rendered HTML file should look like this:
+
+![](../assets/image06.png)
