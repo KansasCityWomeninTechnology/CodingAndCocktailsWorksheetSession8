@@ -1,6 +1,5 @@
 # Summary
 
-* [Intro to Node Package Manager](README.md)
 * [Overview](overview.md)
 * [Project](project/README.md)
    * [Part 0: Verify NodeJS is installed](project/part_0_verify_nodejs_is_installed.md)
