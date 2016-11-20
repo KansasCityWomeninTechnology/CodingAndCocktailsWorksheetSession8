@@ -8,4 +8,4 @@ Tonight’s objective is to understand the purpose of NPM and become comfortable
 
 
 [![](assets/1.png)](http://bit.ly/CnCgloss)
-[![](assets/2.png)](bit.ly/CnCTools)
+[![](assets/2.png)](http://bit.ly/CnCTools)
