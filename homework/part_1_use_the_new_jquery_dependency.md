@@ -12,4 +12,4 @@ Your index.js file already contains one way of selecting an element (document.qu
 
 Your rendered HTML file should look like this:
 
-![](../assets/image06.png)
+![](../images/17.png)
