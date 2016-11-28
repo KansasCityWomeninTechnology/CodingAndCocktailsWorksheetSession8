@@ -22,8 +22,7 @@ All of these steps are performed inside Sublime.
           </body>
         </html>
 
-  ![](../assets/14.png)
-
+  ![](../images/8.png)
 1.  Repeat steps 1-3 to create a file called **main.css**
 2.  Enter the following CSS and then save again:
 
@@ -38,4 +37,4 @@ All of these steps are performed inside Sublime.
 
 Your rendered HTML file should look like this:
 
-![](../assets/image10.png)
+![](../images/9.png)
