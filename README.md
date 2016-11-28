@@ -1,10 +1,11 @@
-# Intro to NPM (Node Package Manager) {#intro-to-node-package-manager}
-
+# Coding & Cocktails Session 7:
+## Intro to NPM (Node Package Manager) {#intro-to-node-package-manager}
+<hr>
 ![codingcocktailsbadge-200.png](/assets/codingcocktailsbadge-200.png)
-## Overview {#overview}
+### Overview {#overview}
 
 Tonight’s objective is to understand the purpose of NPM and become comfortable using it.
 
 
 
-[![](assets/1.png)](http://bit.ly/CnCgloss) [![](assets/2.png)](http://bit.ly/CnCTools)
+[![](images/glossary.png)](http://bit.ly/CnCgloss) [![](images/tools.png)](http://bit.ly/CnCTools)
