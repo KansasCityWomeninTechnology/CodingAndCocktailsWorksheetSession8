@@ -13,4 +13,4 @@ Now we’re ready to put the new dependency (lodash) to good use.
 2.  Refresh (or open again) **index.html** in your browser.
 
 Your rendered HTML file should look like this:
-![](../assets/image07.png)
+![](../images/14.png)
