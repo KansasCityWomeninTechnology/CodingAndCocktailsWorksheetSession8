@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Overview](README.md)
 * [Project](project/README.md)
    * [Part 0: Verify NodeJS is installed](project/part_0_verify_nodejs_is_installed.md)
    * [Part 1:  Create a project folder](project/part_1_create_a_project_folder.md)
