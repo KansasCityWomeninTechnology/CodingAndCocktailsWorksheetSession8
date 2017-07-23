@@ -1,1 +1,10 @@
-{}
+{
+    "plugins": [
+        "custom-favicon",
+        "hints",
+        "sectionx"
+    ],
+    "pluginsConfig": {
+        "favicon": "images/favicon.ico"
+    }
+}

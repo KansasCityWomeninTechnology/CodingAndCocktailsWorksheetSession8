@@ -1,11 +1,10 @@
 ### Part 2: Create the project files {#part-2-create-the-project-files}
 
-All of these steps are performed inside Sublime.
+All of these steps are performed inside Atom.
 
-1.  Right click on the packagesproject folder and choose **New File**
-2.  Save the file (**Ctrl+S** or **Cmd+S**). This will prompt you for a file name.
-3.  Enter **index.html** and click the **Save** button.
-4.  Enter the following HTML and then save again:
+1.  Right click on the _packagesproject_ folder in the left sidebar and choose **New File**
+2. You will be prompted to name the file. Type **index.html** & hit enter
+3.  Enter the following HTML and then save the file (**Ctrl+S** or **Cmd+S**):
 
         <!DOCTYPE html>
         <html>
@@ -14,7 +13,7 @@ All of these steps are performed inside Sublime.
           </head>
           <body>
             <h2>
-              NPM is awesome!
+              npm is awesome!
             </h2>
             <h4>
             </h4>
@@ -22,18 +21,27 @@ All of these steps are performed inside Sublime.
           </body>
         </html>
 
-  ![](../images/8.png)
+  {% hint style='tip' %}
+  In Atom, if a file has been modified but not saved, the tab shows a dot. Often, the answer to "Why isn't my code working?" is "Oh, I didn't save the file".
+
+  Unsaved:
+  ![](../images/unsaved-file-tab.png)
+
+  Saved:
+  ![](../images/saved-file-tab.png)
+  {% endhint %}
 1.  Repeat steps 1-3 to create a file called **main.css**
 2.  Enter the following CSS and then save again:
 
         body {
           background-color: lightgreen;
         }
+
         h1, h2, h3, h4, h5, h6 {
           color: darkgreen;
         }
-1. Repeat steps 1-3 to create a file called index.js  (it remains empty)
-2. Now in your browser, navigate to your index.html file: **file:///<yourHomeDirectory>/CodingAndCocktails/packagesproject/index.html**
+1. Repeat steps 1-3 to create a file called **index.js** (it remains empty)
+2. In Chrome, navigate to your _index.html_ file: **file:///<yourHomeDirectory>/CodingAndCocktails/packagesproject/index.html**
 
 Your rendered HTML file should look like this:
 

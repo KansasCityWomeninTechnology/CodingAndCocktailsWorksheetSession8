@@ -2,7 +2,7 @@
 
 Now we’re ready to put the new dependency (lodash) to good use.
 
-1.  In Sublime, copy or type the following into **index.js**, then save again:
+1.  In Atom, copy or type the following into **index.js**, then save again:
 
         var _ = require('lodash');
         var wine = "I like red wine"

@@ -2,7 +2,7 @@
 
 Your index.js file already contains one way of selecting an element (document.querySelector). Now that you have jQuery, you can do this another way:
 
-1.  In Sublime, open the **index.js** file and place the following code anywhere in the file:
+1.  In Atom, open the **index.js** file and place the following code anywhere in the file:
 
         var $ = require('jquery');
         $("h4").css("color", "white");

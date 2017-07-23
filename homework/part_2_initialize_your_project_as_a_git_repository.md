@@ -4,7 +4,7 @@ Start tracking your progress with git. We’re going to tell git what it should 
 
 1.  On the command line, type the following: ``git init``
 2.  Now type: ``git status`` This command lists the files and folders git thinks it should track.
-3.  In Sublime, create a new file called **.gitignore** (note, this file starts with a dot). See Part 2 of the project section above if you need help creating new files.
+3.  In Atom, create a new file called **.gitignore** (note, this file starts with a dot). See Part 2 of the project section above if you need help creating new files.
 
   ![](../images/18.png)
 
