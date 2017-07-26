@@ -13,3 +13,4 @@
  * [Part 1: Use the new jQuery dependency](homework/part_1_use_the_new_jquery_dependency.md)
  * [Part 2: Initialize your project as a git repository](homework/part_2_initialize_your_project_as_a_git_repository.md)
  * [Part 3: Continue to discover new dependencies and try them out!](homework/part_3_continue_to_discover_new_dependencies_and_t.md)
+ * [Survey](survey.md)
