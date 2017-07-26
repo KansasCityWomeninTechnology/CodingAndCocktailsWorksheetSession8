@@ -1,4 +1,4 @@
-# Coding & Cocktails Session 7:
+# Coding & Cocktails Session 8:
 ## Intro to NPM (Node Package Manager) {#intro-to-node-package-manager}
 <hr>
 ![codingcocktailsbadge-200.png](/images/image47.png)
