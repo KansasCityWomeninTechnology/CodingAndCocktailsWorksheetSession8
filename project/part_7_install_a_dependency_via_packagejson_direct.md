@@ -6,8 +6,8 @@ You can also add a dependency to the _package.json_ directly. In this part, we'l
 
 2.  In Chrome, go to: [https://www.npmjs.com/package/jquery](https://www.npmjs.com/package/jquery)
 
-3.  Notice the latest version of jQuery in the right sidebar:
-  ![](../images/15.png)
+3.  Notice the latest version of jQuery in the right sidebar:  
+  <img src="../images/jquery-version.png" style="width: 50%" />
 
 4.  In the dependencies section, add a comma at the end of the lodash line, hit enter and type the following on the new line. Then save again:
 
@@ -19,5 +19,6 @@ You can also add a dependency to the _package.json_ directly. In this part, we'l
   {% endhint %}
 
 5.  On the command line, type: `npm install`
+  This installs any dependencies listed in  _package.json_, that haven't already been installed.
 
-6.  This will install any dependencies you just added to the _package.json_ file.
+  ![](../images/jquery-install.png)

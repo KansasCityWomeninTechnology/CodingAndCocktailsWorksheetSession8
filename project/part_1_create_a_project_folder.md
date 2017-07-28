@@ -21,11 +21,13 @@ Revisit the command line worksheet from March:
   {% endhint %}
 
 2.  Make a new folder called **packagesproject**. Type:: `mkdir packagesproject`
+
 3.  Move into that new folder: `cd packagesproject`
 
   {% hint style='tip' %}
   #### Command line woes?
-  - If you start typing the name of a folder or file, hit tab and it will autocomplete
+
+  If you start typing the name of a folder or file, hit tab and it will autocomplete
   {% endhint %}
 
 4.  Open the Atom text editor from here. Type: `atom .`
@@ -37,7 +39,7 @@ Revisit the command line worksheet from March:
   You can configure your system to recognize the command (ask a mentor for help) or you can follow these steps to open it manually:
 
   1. From your applications or start menu, open Atom
-  2. In Atom: **File** >> **Open Folder...**
+  2. In Atom: **File** >> **Open...** (Mac) or **Open Folder...** (Windows)
   3. Open the _packagesproject_ folder
   4. Click the **Open** button
   {% endhint %}

@@ -23,3 +23,5 @@ This is the **home** of the library on **npm**, where you can find links to the 
   {% endhint %}
 
 2.  When it’s done, notice the new dependency is listed in the _package.json_ file. It also downloaded the lodash library to a folder called _node_modules_.
+
+  ![](../images/node_modules-folder.png)

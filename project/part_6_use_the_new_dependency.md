@@ -6,7 +6,7 @@ Now we’re ready to put the new dependency (lodash) to good use.
 
   ```
   var _ = require('lodash');
-  var wine = "I like red wine";
+  var wine = 'I like red wine';
   var h4Heading = document.querySelector('h4');
   h4Heading.textContent = _.replace(wine, 'red', 'white');
   ```
@@ -16,4 +16,4 @@ Now we’re ready to put the new dependency (lodash) to good use.
 3.  Refresh (or open again) _index.html_ in Chrome.
 
 Your rendered HTML file should look like this:
-![](../images/14.png)
+![](../images/index-with-lodash.png)

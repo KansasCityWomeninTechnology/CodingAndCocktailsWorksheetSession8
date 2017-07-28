@@ -1,5 +1,5 @@
 # Coding & Cocktails Session 8:
-## Intro to NPM (Node Package Manager) {#intro-to-node-package-manager}
+## Intro to npm (package manager for Node.js) {#intro-to-node-package-manager}
 <hr>
 ![codingcocktailsbadge-200.png](/images/image47.png)
 ### Overview {#overview}

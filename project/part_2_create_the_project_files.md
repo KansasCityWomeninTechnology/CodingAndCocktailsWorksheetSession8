@@ -41,11 +41,11 @@ All of these steps are performed inside Atom.
 
   ```
   body {
-    background-color: lightgreen;
+      background-color: lightgreen;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: darkgreen;
+      color: darkgreen;
   }
   ```
 
@@ -55,4 +55,4 @@ All of these steps are performed inside Atom.
 
 Your rendered HTML file should look like this:
 
-![](../images/9.png)
+![](../images/index-without-dependencies.png)
