@@ -1,10 +1,14 @@
 ### Part 4: Install Browserify (Globally) {#part-4-install-browserify-globally}
 
-Browserify will allow you to easily consume new dependencies with the javascript **require** statement.
+Browserify will allow you to easily consume new dependencies with the JavaScript **require** statement.
 
 1.  On the command line, type: `npm install -g browserify`
 
-2.  It will show a progress bar (of sorts). If it prompts you for a password, enter it.
+  {% hint style='hint' %}
+  The `-g` flag means we're installing the **npm** Browserify package globally (across your computer's operating system). That means you'll be able to use Browserify in your CLI across multiple projects by typing `browserify <command>`, which we'll use in a little bit.
+  {% endhint %}
+
+2.  It will show a progress bar (of sorts) as it installs.
 
   <!--
   {% hint style='danger' %}
