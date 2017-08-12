@@ -11,4 +11,5 @@
 * [Part 7: Install a dependency via package.json directly](project/part_7_install_a_dependency_via_packagejson_direct.md)
 * [Homework](homework.md)
 * [Bonus: Package Locks](bonus\package_locks.md)
+* [Bonus: NPM Scripts & Basic Webpack](bonus\webpack_basic.md)
 * [Survey](survey.md)
