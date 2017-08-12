@@ -10,4 +10,5 @@
 * [Part 6: Use the new dependency](project/part_6_use_the_new_dependency.md)
 * [Part 7: Install a dependency via package.json directly](project/part_7_install_a_dependency_via_packagejson_direct.md)
 * [Homework](homework.md)
+* [Bonus: Package Locks](bonus\package_locks.md)
 * [Survey](survey.md)
