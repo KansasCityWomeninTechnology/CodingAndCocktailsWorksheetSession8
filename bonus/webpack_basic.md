@@ -162,4 +162,5 @@ So using **Webpack** like **Browserify** was pretty straightforward, but you're 
 
   13. Update `white` in _index.js_ to be `blue` and save the file. Chrome should automagically refresh and show you the new code.
 
+
   ![](https://media.giphy.com/media/OUwzqE4ZOk5Bm/giphy.gif)
