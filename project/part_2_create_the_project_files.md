@@ -44,7 +44,7 @@ All of these steps are performed inside Atom.
   ![](../images/saved-file-tab.png)
   {% endhint %}
 
-4.  Let's add some styles to our HTML with a bit of color. Repeat steps 1-3 to create a file called **main.css**
+4.  Let's add some styles to our HTML with a bit of color. Repeat steps 1-2 to create a file called **main.css**
 
 5.  Enter the following CSS and then save the file:
 
@@ -65,7 +65,7 @@ All of these steps are performed inside Atom.
   [bit.ly/CnCFebWork](http://bit.ly/CnCFebWork)
   {% endhint %}
 
-6. Repeat steps 1-3 to create a file called **index.js** (it remains empty)
+6. Repeat steps 1-2 to create a file called **index.js** (it remains empty)
 
 7. In Chrome, navigate to your _index.html_ file: **file:///&lt;yourHomeDirectory&gt;/CodingAndCocktails/packagesproject/index.html**
 
