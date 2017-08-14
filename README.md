@@ -27,4 +27,5 @@ While following along with the worksheet, type out the commands instead of doing
 |Switch between programs on the taskbar| N/A | `windows key` + `tab`|
 |Switch between Chrome windows. |`shift` + `cmd` + `~`| N/A |
 
+
 [![](images/glossary.png)](http://bit.ly/CnCgloss) [![](images/tools.png)](http://bit.ly/CnCTools)
