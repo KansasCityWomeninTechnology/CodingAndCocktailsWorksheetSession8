@@ -36,7 +36,7 @@ Start tracking your progress with git. We’re going to tell git what it should 
 
 4.  Add the following to the **.gitignore** file and save it:
 
-        node_modules
+        node_modules/
         bundle.js
 
         #For macs
