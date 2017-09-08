@@ -68,7 +68,7 @@ There are 2 differences between _package-lock.json_ & _npm-shrinkwrap.json_.
 
 You should still see the following versions in their respective files:
 
-| _package.json_ | _package-lock.json_ |
+| _package.json_ | _npm-shrinkwrap.json_ |
 | --- | --- |
 | `^4.17.4` | `3.10.1` |
 
