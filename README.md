@@ -1,31 +1,26 @@
-# Coding & Cocktails Session 8:
-## Intro to npm (package manager for Node.js) {#intro-to-node-package-manager}
-<hr>
-![codingcocktailsbadge-200.png](/images/image47.png)
-### Overview {#overview}
+# Coding & Cocktails Session 8: Intro to npm
 
-Dependencies are references to code that someone else wrote. People publish this code by creating node packages. Node packages are open-source, which means you don’t have to pay to use it. Most websites and apps are built with some kind of dependencies.
+The `docs` directory contains worksheets for Coding & Cocktails session 8 published on Gitbooks: [Coding & Cocktails - Session 8: Intro to npm](https://codingandcocktailskc.gitbooks.io/session-8-intro-to-package-managers-npm/content/).
 
-The mission tonight is to create a simple project and add dependencies to it with **npm**. We’ll use each new dependency in some small way.
+## Getting Going
 
-{% hint style='danger' %}
-While following along with the worksheet, type out the commands instead of doing a copy & paste (_unless instructed to copy & paste_) to avoid inadvertently using any incorrect characters.
-{% endhint %}
+```bash
+npm install
+npm run docs:install
+```
+To serve Gitbook, `npm start`.
+To build without serving, `npm run docs:build`.
 
-### Helpful Keyboard Shortcuts
-|Command|Mac Key Combination|Windows Key Combination|
-|--|--|--|
-|Cut|`cmd` + `x`|`ctrl` + `x`|
-|Copy|`cmd` + `c`|`ctrl` + `c`|
-|Paste|`cmd` + `v`|`ctrl` + `v`|
-|Undo|`cmd` + `z`|`ctrl` + `z`|
-|Redo|`cmd` + `y`|`ctrl` + `y`|
-|Save|`cmd` + `s`|`ctrl` + `s`|
-|Select all|`cmd` + `a`|`ctrl` + `a`|
-|Find|`cmd` + `f`|`ctrl` + `f`|
-|Switch between open apps/programs |`cmd` + `tab`|`alt` + `tab`|
-|Switch between programs on the taskbar| N/A | `windows key` + `tab`|
-|Switch between Chrome windows. |`shift` + `cmd` + `~`| N/A |
+## Associated Repos
+
+## Associated CodePens 
 
 
-[![](images/glossary.png)](http://bit.ly/CnCgloss) [![](images/tools.png)](http://bit.ly/CnCTools)
+## TODO
+- [] 2018 updates!
+
+
+## License
+![](https://lh6.googleusercontent.com/osprAumZLusoNUcKnPtOWMijWYLZ8ydrUS0gMTvMCoyhSVBd69InqiXqQjc7fH8iQiVbZLXvyyvPZXwKjeyHuPnrd2zJT1mYLa1WoziryvxOo0q7nvMnpfeeVPBgfqW0bnp1--wa)![](https://lh5.googleusercontent.com/AZZipN4uXuU6FkxA0zLbrq9EwMhky22oNI8UtjQ2-Kgzy64Jmbij_IKUwXDcqGjnHWSMg9h3ii2Dx_SLI871nVn56NyF1VnmDbkEL2m9sJ_9YYGpNC8kdiYepai1jAZLEWWt8iTW)![](https://lh6.googleusercontent.com/GSxH81qYzBJkBR39GbviwKcwxem0RbN8XTx_6BOHgziQ6OomnG-au25ZSdiNQ4rX2p2HanRGa8_SzTPhJ3SKW-Vrs6fJ8N9s0FLq1EVSwUZXrLZuUVONachwFWwqTr6PMpn1csnu)
+
+This work is licensed by [http://kcwomenintech.org/](http://kcwomenintech.org/) under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
