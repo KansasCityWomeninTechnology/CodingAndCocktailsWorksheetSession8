@@ -48,3 +48,11 @@ When you’re starting from scratch, an empty project is simply an empty folder.
   3. Open the _packagesproject_ folder
   4. Click the **Open** button
   {% endhint %}
+
+<!--sec data-title="Chromebook instructions" data-id="section1" data-show=true data-collapse=true ces-->
+- You already have the files you need so you can skip the first step to download files. 
+
+- To preview your file in Codeanywhere, right click on the _index.html_ in the file explorer and select **Preview**.
+
+- Instead of Atom, you'll be using the built-in text editor in your workspace. Double-click on the _index.html_ file to open it in the editor.
+<!--endsec-->

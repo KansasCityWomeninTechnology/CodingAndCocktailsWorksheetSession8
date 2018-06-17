@@ -1,5 +1,7 @@
 ### **npm** Scripts & Browserify-like Webpack
 
+JAD Note - used webpack v3.11.0
+
 Earlier we used **Browserify** to bundle our JavaScript files. **Webpack** is another tool that developers use as it offers similar & yet more robust capabilities. However, after using **Browserify**, it can be intimidating to use **Webpack**, so let's tackle it.
 
 In your CLI, make sure `pwd` [your current working directory] is _packagesproject_.
