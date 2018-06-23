@@ -1,14 +1,14 @@
-### Part 4: Install Browserify (Globally) {#part-4-install-browserify-globally}
+## Install Browserify (Globally) {#browserify}
 
 Browserify will allow you to easily consume new dependencies with the JavaScript **require** statement.
 
-1.  On the command line, type: `npm install -g browserify`
+1. On the command line, type `npm install -g browserify` <i class="fa fa-share fa-rotate-180"></i>.
 
   {% hint style='hint' %}
-  The `-g` flag means we're installing the **npm** Browserify package globally (across your computer's operating system). That means you'll be able to use Browserify in your CLI across multiple projects by typing `browserify <command>`, which we'll use in a little bit.
+The `-g` flag means we're installing the **npm** Browserify package globally (across your computer's operating system). That means you'll be able to use Browserify in your CLI across multiple projects by typing `browserify <command>`, which we'll use in a little bit.
   {% endhint %}
 
-2.  It will show a progress bar (of sorts) as it installs.
+1. It will show a progress bar (of sorts) as it installs.
 
   <!--
   {% hint style='danger' %}
@@ -19,5 +19,5 @@ Browserify will allow you to easily consume new dependencies with the JavaScript
   {% endhint %}
   -->
 
-3.  When it’s done, it should look something like this:
-  ![](../images/11.png)
+1. When it’s done, it should look something like this:
+  ![](../images/browserify-complete.png)

@@ -1,60 +1,65 @@
-### **npm** Scripts & Browserify-like Webpack
-
-JAD Note - used webpack v3.11.0
+## **npm** Scripts & Browserify-like Webpack
 
 Earlier we used **Browserify** to bundle our JavaScript files. **Webpack** is another tool that developers use as it offers similar & yet more robust capabilities. However, after using **Browserify**, it can be intimidating to use **Webpack**, so let's tackle it.
 
+{% hint style='tip' %}
+##### Hey Slacker!
+
+Remember, we're here to help.
+Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit.slack.com)
+{% endhint %}
+
 In your CLI, make sure `pwd` [your current working directory] is _packagesproject_.
 
-  1. First, we need to install **Webpack**. Instead of installing it globally [like we did with **Browserify**], we're going to install it to our project. In your CLI, type: `npm install webpack --save-dev`  
+1. First, we need to install **Webpack**. Instead of installing it globally [like we did with **Browserify**], we're going to install it to our project. In your CLI, type: `npm install webpack@3.11.0 --save-dev` <i class="fa fa-share fa-rotate-180"></i>.  
 
   {% hint style='tip' %}
-  This installs the **Webpack** package and adds it to your _package.json_ in the `devDependencies` section. We install it as a dev dependency since we only want to use the package for the development of our project and we won't be including **Webpack** with our application in production.
+This installs a specific version of the **Webpack** package and adds it to your _package.json_ in the `devDependencies` section. We install it as a dev dependency since we only want to use the package for the development of our project and we won't be including **Webpack** with our application in production.
 
-   You can install either **Browserify** or **Webpack** globally [with `-g` flag or locally to the project]. We're installing **Webpack** to our project to illustrate the difference.
+You can install either **Browserify** or **Webpack** globally [with `-g` flag or locally to the project]. We're installing **Webpack** to our project to illustrate the difference.
   {% endhint %}
 
-  2. You can use **Webpack** very similar to **Browserify**. Delete the bundle.js file from your project & in your CLI type: `webpack index.js bundle.js`
+1. You can use **Webpack** very similar to **Browserify**. Delete the bundle.js file from your project & in your CLI type: `webpack index.js bundle.js` <i class="fa fa-share fa-rotate-180"></i>.
 
   What's that? You got an error? `'webpack' is not recognized as an internal or external command, operable program or batch file.`
 
   Oh yea, that's because we installed **Webpack** locally.
 
-  Let's use the `webpack` command out of our project's local _node_modules_. In your CLI, type: `./node_modules/.bin/webpack index.js bundle.js`
+  Let's use the `webpack` command out of our project's local _node_modules_. In your CLI, type `./node_modules/.bin/webpack index.js bundle.js` <i class="fa fa-share fa-rotate-180"></i>.
 
   <img src="../images/webpack-command-location.png" style="max-width: 50%;" />
 
   {% hint style='tip' %}
-  If you open the generated _bundle.js_ file, you'll notice it's larger than the **Browserify** version. Your code is in there (might use Atom's search b/c it's a bit hidden in there), **lodash** is in there **and** there is some extra **Webpack** code in there that enables **Webpack** to do its own thing.
+If you open the generated _bundle.js_ file, you'll notice it's larger than the **Browserify** version. Your code is in there (might use Atom's search b/c it's a bit hidden in there), **lodash** is in there **and** there is some extra **Webpack** code in there that enables **Webpack** to do its own thing.
   {% endhint %}
 
-  3. Obviously having to type `./node_modules/.bin/webpack index.js bundle.js` everytime you want to build your file isn't ideal. Let's add an **npm** script to make our lives easier. Open your _package.json_ file in Atom.
+1. Obviously having to type `./node_modules/.bin/webpack index.js bundle.js` everytime you want to build your file isn't ideal. Let's add an **npm** script to make our lives easier. Open your _package.json_ file in Atom.
 
-  4. There is already a script in there, look for the following:
-  ```
+1. There is already a script in there, look for the following:
+  ```json
   "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
   },
   ```
 
-  Add a comma at the end of the line that starts with `"test"` (after the ending quote) & hit enter.
+  Add a comma at the end of the line that starts with `"test"` (after the ending quote) and press `Enter`.
 
-  On the new line, type: `"bundle": "webpack index.js bundle.js"`
+  On the new line, type `"bundle": "webpack index.js bundle.js"` <i class="fa fa-share fa-rotate-180"></i>.
 
   It should look like the following:
 
   ![](../images/npm-scripts.png)
 
   {% hint style='tip' %}
-  Whoa. Why didn't you have to include the `./node_modules/.bin/` in front of `webpack`?
+Whoa. Why didn't you have to include the `./node_modules/.bin/` in front of `webpack`?
 
-  That's because since the package is installed locally to the project, the **npm** script can find the command by simply using the command name.
+That's because since the package is installed locally to the project, the **npm** script can find the command by simply using the command name.
   {% endhint %}
 
-  5. Now, you can run the **npm** script by typing the following in your CLI: `npm run bundle`
+`. Now, you can run the **npm** script by typing the following in your CLI by typing `npm run bundle` <i class="fa fa-share fa-rotate-180"></i>.
 
   {% hint style='tip' %}
-  Anything in the **scripts** portion can be run with `npm run <propertyName>`, where **propertyName** is whatever you've set in the quotes before the `:`.
+Anything in the **scripts** portion can be run with `npm run <propertyName>`, where **propertyName** is whatever you've set in the quotes before the `:`.
   {% endhint %}
 
 
@@ -63,11 +68,11 @@ In your CLI, make sure `pwd` [your current working directory] is _packagesprojec
 
 So using **Webpack** like **Browserify** was pretty straightforward, but you're probably not going to find anything like that in a real life project. So let's jump into a more realistic example.
 
-  1. In your _packagesproject_ directory, create a new file & name it: **webpack.config.js**
+1. In your _packagesproject_ directory, create a new file & name it _webpack.config.js_.
 
-  2. Open the _webpack.config.js_ in Atom and add the following & save the file:
+1. Open the _webpack.config.js_ in Atom and add the following and save the file:
 
-  ```
+  ```javascript
   module.exports = {
       entry: './index.js',
       output: {
@@ -77,44 +82,44 @@ So using **Webpack** like **Browserify** was pretty straightforward, but you're 
   ```
 
   {% hint style='tip' %}
-  The **module.exports** is a bit out of scope for tonight's session. We'll cover it a bit next month, but it is basically exposing the **entry** and **output** properties so that the **Webpack** utility can find and use them.
+The **module.exports** is a bit out of scope for tonight's session. We'll cover it a bit next month, but it is basically exposing the **entry** and **output** properties so that the **Webpack** utility can find and use them.
 
-  **entry** is our main JavaScript file [like the **main** property we specified in our _package.json_]
+**entry** is our main JavaScript file [like the **main** property we specified in our _package.json_]
 
-  **output** can take multiple properties, but we're only going to use one, the **filename** - which is the file name we want to use for the bundled JavaScript file
+**output** can take multiple properties, but we're only going to use one, the **filename** - which is the file name we want to use for the bundled JavaScript file.
   {% endhint %}
 
-  3. Now that you have the config file set up, you can use the `webpack` command by itself to generate the _bundle.js_ file. Since we don't have **Webpack** installed globally, we'd still have to do `./node_modules/.bin/webpack`, so let's add a couple scripts to make our lives easier.
+1. Now that you have the config file set up, you can use the `webpack` command by itself to generate the _bundle.js_ file. Since we don't have **Webpack** installed globally, we'd still have to do `./node_modules/.bin/webpack`, so let's add a couple scripts to make our lives easier.
 
-  4. Open _package.json_ in Atom & add the following scripts:
+1. Open _package.json_ in Atom and add the following scripts:
 
-  ```
+  ```json
   "build": "webpack",
   "minbuild": "webpack -p",
   "watch": "webpack --watch"
   ```
 
   {% hint style='tip' %}
-  Scroll up to our earlier example if you need a reminder on where to add these.
+Scroll up to our earlier example if you need a reminder on where to add these.
   {% endhint %}
 
-  5. Let's try running each of these scripts. In your CLI, type: `npm run build`  
+1. Let's try running each of these scripts. In your CLI, type `npm run build` <i class="fa fa-share fa-rotate-180"></i>.
 
   This command works just like our **Browserify** or earlier **Webpack** commands, the _bundle.js_ has our code, **lodash** & some **Webpack** code.
 
-  6. Now, let's do the one with the `-p` flag. In your CLI, type: `npm run minbuild`
+1. Now, let's do the one with the `-p` flag. In your CLI, type `npm run minbuild` <i class="fa fa-share fa-rotate-180"></i>
 
   The `-p` flag is short for **production** and using it makes your _bundle.js_ file ready for production. What does that mean? In short, it **minifies** the _bundle.js_ file. Open the _bundle.js_ file in Atom & take a look. It should like a bunch of random letters/numbers all squished together.
 
   {% hint style='info' %}
-  **Minification** is meant to reduce the file size, which in turn means the file can load faster in a browser and boost your application's performance. In minification, extra whitespace is removed [spaces between words/logic, line breaks -- all of it]. It takes your very descriptive variable/method names and replaces them with a few letters that appear random.
+**Minification** is meant to reduce the file size, which in turn means the file can load faster in a browser and boost your application's performance. In minification, extra whitespace is removed [spaces between words/logic, line breaks -- all of it]. It takes your very descriptive variable/method names and replaces them with a few letters that appear random.
 
-  They just appear random, the variable/method names still match up in the code base, so your application still runs the same as it did before. [Take the variable `wine`. It would be replaced everywhere in the code with `w`.]
+They just appear random, the variable/method names still match up in the code base, so your application still runs the same as it did before. [Take the variable `wine`. It would be replaced everywhere in the code with `w`.]
 
-  When you're working on a large project, the code can get very large, so minifying helps to make the application's performance better with files reduced in size.
+When you're working on a large project, the code can get very large, so minifying helps to make the application's performance better with files reduced in size.
   {% endhint %}
 
-  7. Watch, this is going to be fun [pun intended]. In your CLI, type: `npm run watch`
+1. Watch, this is going to be fun [pun intended]. In your CLI, type `npm run watch` <i class="fa fa-share fa-rotate-180"></i>.
 
   **Webpack** is now watching your code for changes. That means you can update the code in _index.js_ & when you save the file, **Webpack** will automatically update the _bundle.js_ file. If you reload _index.html_ in Chrome, you'll see the updates without having to run a command.
 
@@ -122,19 +127,19 @@ So using **Webpack** like **Browserify** was pretty straightforward, but you're 
   In order to stop the **watch** command from continuing to run in the CLI, we need to stop it. On a Mac, the shortcut is **cmd** + **c**. On Windows, the shortcut is **ctrl** + **c**.
   {% endhint %}
 
-  8. So that's fun, but refreshing is one more step. We can do better. In your CLI, type: `npm install webpack-dev-server --save-dev`
+1. So that's fun, but refreshing is one more step. We can do better. In your CLI, type: `npm install webpack-dev-server --save-dev` <i class="fa fa-share fa-rotate-180"></i>
 
   This is installing another **Webpack** package.
 
-  9. Open your _package.json_ in Atom and add the following script:
+1. Open your _package.json_ in Atom and add the following script:
 
   `"start": "webpack-dev-server --open"`
 
   This script will start the **webpack-dev-server**.
 
-  10. Open your _webpack.config.js_ file in Atom. Add a `,` after the closing curly brace for `output` and add the following:
+1. Open your _webpack.config.js_ file in Atom. Add a `,` after the closing curly brace for `output` and add the following:
 
-  ```
+  ```json
   devServer: {
         contentBase: './'
   }
@@ -144,7 +149,7 @@ So using **Webpack** like **Browserify** was pretty straightforward, but you're 
 
   The _webpack.config.js_ file should look like this:
 
-  ```
+  ```javascript
   module.exports = {
         entry: './index.js',
         output: {
@@ -156,12 +161,12 @@ So using **Webpack** like **Browserify** was pretty straightforward, but you're 
   };
   ```
 
-  11. In the CLI, type `npm run start`
+1. In the CLI, type `npm run start` <i class="fa fa-share fa-rotate-180"></i>.
 
   The dev server is now watching your code & will automatically reload the browser, if you make any changes.
 
-  12. Open _index.html_ in Chrome, and open _index.js_ in Atom. If you can, make them side-by-side, so you can see Chrome, while you make a change to the code.
+1. Open _index.html_ in Chrome, and open _index.js_ in Atom. If you can, make them side-by-side, so you can see Chrome, while you make a change to the code.
 
-  13. Update `white` in _index.js_ to be `blue` and save the file. Chrome should automagically refresh and show you the new code.
+1. Update `white` in _index.js_ to be `blue` and save the file. Chrome should automagically refresh and show you the new code.
 
   ![](https://media.giphy.com/media/OUwzqE4ZOk5Bm/giphy.gif)

@@ -1,14 +1,12 @@
-### Part 2: Create the project files {#part-2-create-the-project-files}
+## Create the project files
 
-All of these steps are performed inside Atom.
+1. In Atom, right click on the "packagesproject" folder in the left sidebar and choose **New File**.
 
-1.  Right click on the _packagesproject_ folder in the left sidebar and choose **New File**
+1. At the prompt to name the file, type "index.html" and press `Enter`.
 
-2. You will be prompted to name the file. Type **index.html** & hit enter
+1. Enter the following HTML and then save the file (**Ctrl+S** or **Cmd+S**):
 
-3.  Enter the following HTML and then save the file (**Ctrl+S** or **Cmd+S**):
-
-  ```
+  ```html
   <!DOCTYPE html>
   <html>
       <head>
@@ -35,20 +33,20 @@ All of these steps are performed inside Atom.
   {% endhint %}
 
   {% hint style='info' %}
-  In Atom, if a file has been modified but not saved, the tab shows a dot. Often, the answer to "Why isn't my code working?" is "Oh, I didn't save the file".
+In Atom, if a file has been modified but not saved, the tab shows a dot. Often, the answer to "Why isn't my code working?" is "Oh, I didn't save the file".
 
-  #### Unsaved:
-  ![](../images/unsaved-file-tab.png)
+#### Unsaved:
+![](../images/unsaved-file-tab.png)
 
-  #### Saved:
-  ![](../images/saved-file-tab.png)
+#### Saved:
+![](../images/saved-file-tab.png)
   {% endhint %}
 
-4.  Let's add some styles to our HTML with a bit of color. Repeat steps 1-2 to create a file called **main.css**
+1. Let's add some styles to our HTML with a bit of color. Repeat steps 1-2 to create a file named "main.css".
 
-5.  Enter the following CSS and then save the file:
+1. Enter the following CSS and then save the file:
 
-  ```
+  ```css
   body {
       background-color: lightgreen;
   }
@@ -59,20 +57,20 @@ All of these steps are performed inside Atom.
   ```
 
   {% hint style='tip' %}
-  Compare this CSS to the HTML above. Can you guess what it will look like in the browser?
+Compare this CSS to the HTML above. Can you guess what it will look like in the browser?
 
-  Use the CSS worksheet from February, if you need a reminder:
-  [bit.ly/CnCFebWork](http://bit.ly/CnCFebWork)
+Use the CSS worksheet from February, if you need a reminder:
+[bit.ly/CnCFebWork](http://bit.ly/CnCFebWork)
   {% endhint %}
 
-6. Repeat steps 1-2 to create a file called **index.js** (it remains empty)
+1. Repeat steps 1-2 to create a file named "index.js" (it remains empty).
 
-7. In Chrome, navigate to your _index.html_ file: **file:///&lt;yourHomeDirectory&gt;/CodingAndCocktails/packagesproject/index.html**
+1. In Chrome, navigate to your _index.html_ file: **file:///&lt;yourHomeDirectory&gt;/CodingAndCocktails/packagesproject/index.html**
 
   <!--sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section0" data-show=true data-collapse=true ces-->
-  The Cloud9 workspace is all-inclusive, so the process to view the rendered HTML file is a bit different than looking at a local file in Chrome from your computer.
-
-  Right click on the _index.html_ in the left sidebar to open a context menu and select **Preview**. This adds a new tab within your Cloud9 workspace for previewing the display of your HTML file.
+  The CodeAnywhere workspace is all-inclusive, so the process to view the rendered HTML file is a bit different than looking at a local file in Chrome from your computer.
+  
+  Right click on the _index.html_ in the left sidebar to open a context menu and select **Preview**. This opens a new tab in Chrome to view your file.
   <!--endsec-->
 
 Your rendered HTML file should look like this:

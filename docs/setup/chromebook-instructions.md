@@ -30,9 +30,9 @@ The <i class="fa fa-share fa-rotate-180"></i> icon tells you when to press `Ente
 
 1. Navigate into the directory by typing `cd CodingAndCocktails` <i class="fa fa-share fa-rotate-180"></i>.
 
-1. Create an "Architecture" folder by typing `mkdir packagesproject` <i class="fa fa-share fa-rotate-180"></i>. 
+1. Create an "packagesproject" folder by typing `mkdir packagesproject` <i class="fa fa-share fa-rotate-180"></i>. 
 
-1. Navigate into the "Architecture" directory by typing `cd packages` <i class="fa fa-share fa-rotate-180"></i>.
+1. Navigate into the "packagesproject" directory by typing `cd packages` <i class="fa fa-share fa-rotate-180"></i>.
 
 1. Right click on "KCWIT" container and select **Refresh**. This will show all your new folders and files in the left pane. You can now drag and drop files between folders in this pane. You will have to manually refresh the view every time you create or make changes to folders and files in the terminal.
    

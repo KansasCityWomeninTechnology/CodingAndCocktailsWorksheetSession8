@@ -50,6 +50,9 @@ The <i class="fa fa-share fa-rotate-180"></i> icon tells you when to press `Ente
 ## Create a folder for tonight's work
 
 Create a folder named "packagesproject" in your "CodingAndCocktails" folder by following the steps below
+{% hint style='danger' %}
+If you joined us last year and already have a "packagesproject" folder, please delete or rename the old folder & create a new one for tonight's project.
+{% endhint %}
 
 1. In your terminal, navigate to your home directory by following the instructions for your OS and press `Enter`.
 
