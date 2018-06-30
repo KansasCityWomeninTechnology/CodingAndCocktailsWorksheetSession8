@@ -67,7 +67,7 @@ Use the CSS worksheet from February, if you need a reminder:
 
 1. In Chrome, navigate to your _index.html_ file: **file:///&lt;yourHomeDirectory&gt;/CodingAndCocktails/packagesproject/index.html**
 
-  <!--sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section0" data-show=true data-collapse=true ces-->
+  <!--sec data-title="Chromebooks Only: Codeanywhere Instructions" data-id="section0" data-show=true data-collapse=true ces-->
   The CodeAnywhere workspace is all-inclusive, so the process to view the rendered HTML file is a bit different than looking at a local file in Chrome from your computer.
   
   Right click on the _index.html_ in the left sidebar to open a context menu and select **Preview**. This opens a new tab in Chrome to view your file.
