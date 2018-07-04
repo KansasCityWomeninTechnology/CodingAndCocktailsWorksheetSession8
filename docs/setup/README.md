@@ -44,7 +44,7 @@ The <i class="fa fa-share fa-rotate-180"></i> icon tells you when to press `Ente
 
 1. In your terminal type `npm --version` <i class="fa fa-share fa-rotate-180"></i>.
 
-1. If your version of npm is not >= 5.6 or if you just installed Node, follow the instructions in [The Tools](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-node/#npm) to upgrade npm for your OS.
+1. If your version of npm is not >= 5.8 or if you just installed Node, follow the instructions in [The Tools](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-node/#npm) to upgrade npm for your OS.
 
 
 ## Create a folder for tonight's work
