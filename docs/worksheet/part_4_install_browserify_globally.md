@@ -1,6 +1,9 @@
 ## Install Browserify (Globally) {#browserify}
 
 Browserify will allow you to easily consume new dependencies with the JavaScript **require** statement.
+{% hint style='tip' %}
+npm packages are constantly updating so the pictures and instructions may not be the latest version available.
+{% endhint %}
 
 1. On the command line, type `npm install -g browserify` <i class="fa fa-share fa-rotate-180"></i>.
 

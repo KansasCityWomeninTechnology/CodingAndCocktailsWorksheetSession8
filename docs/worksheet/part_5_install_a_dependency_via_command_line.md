@@ -3,7 +3,7 @@
 Just like the `init` command, **npm** provides an easy way to add a dependency via command line, too. In this part, we'll add a dependency on **lodash** using this method.
 
 {% hint style='info' %}
-**Lodash** is a library that helps you manipulate JSON objects in JavaScript. This can be very handy if you want to:
+**Lodash** is a library that helps you manipulate JSON objects in JavaScript. This can be handy if you want to:
 - sort an array (alphabetically, or in some other way)
 - replace words in a string
 - generate a random number
