@@ -14,14 +14,14 @@ In your CLI, make sure `pwd` [your current working directory] is _packagesprojec
 1. First, we need to install **Webpack**. Instead of installing it globally [like we did with **Browserify**], we're going to install it to our project. In your CLI, type: `npm install webpack@3.11.0 --save-dev` <i class="fa fa-share fa-rotate-180"></i>.  
 
   {% hint style='tip' %}
-This installs a specific version of the **Webpack** package and adds it to your _package.json_ in the `devDependencies` section. We install it as a dev dependency since we only want to use the package for the development of our project and we won't be including **Webpack** with our application in production.
+This installs a specific version of the **Webpack** package and adds it to your _package.json_ in the `devDependencies` section. We install it as a dev dependency since we only want to use the package for the development of our project, and we won't be including **Webpack** with our application in production.
 
 You can install either **Browserify** or **Webpack** globally [with `-g` flag or locally to the project]. We're installing **Webpack** to our project to illustrate the difference.
   {% endhint %}
 
 1. You can use **Webpack** similarly to the way we used **Browserify**. Delete the _bundle.js_ file from your project and in your CLI type `webpack index.js bundle.js` <i class="fa fa-share fa-rotate-180"></i>.
 
-  What's that? You got an error? `'webpack' is not recognized as an internal or external command, operable program or batch file.`
+  What's that? You got an error? `'webpack' is not recognized as an internal or external command, operable program or batch file.` Or simply `webpack: command not found`?
 
   Oh yea, that's because we installed **Webpack** locally.
 

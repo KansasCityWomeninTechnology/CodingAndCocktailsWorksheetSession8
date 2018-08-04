@@ -11,7 +11,7 @@ Just like the `init` command, **npm** provides an easy way to add a dependency v
 
 Lodash - along with hundreds of other libraries - are available via **npm**. The URL for this is: https://www.npmjs.com/package/lodash
 
-This is the **home** of the library on **npm**, where you can find links to the author(s), documentation, support, etc. Try substituting the last part with another library, such as **jquery**.
+This is the **home** of the library on **npm**, where you can find links to the author(s), documentation, support, etc. Try substituting the last part with another library, such as **moment**.
 {% endhint %}
 
 1. On the command line, type `npm install lodash` <i class="fa fa-share fa-rotate-180"></i>.

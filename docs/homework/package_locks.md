@@ -1,6 +1,6 @@
 ## Package Locks
 
-Package locks in **npm** are files that help lock down the versions of the **npm** packages in your project. Versions can be a difficult thing to manage and one package updating could mean that your whole project is broken. Without a package lock file, `npm install` installs the most recent version [per the [SemVer](http://blog.npmjs.org/post/162134793605/why-use-semver) settings specified in your _package.json_], this means the dependencies that your dependencies use could be updated. That's where package lock files are useful. They list not only the versions of your immediate dependencies, but also all the versions of any nested [children, grandchildren] dependencies used.
+Package locks in **npm** are files that help lock down the versions of the **npm** packages in your project. Versions can be a difficult thing to manage, and one package updating could mean that your whole project is broken. Without a package lock file, `npm install` installs the most recent version [per the [SemVer](http://blog.npmjs.org/post/162134793605/why-use-semver) settings specified in your _package.json_]. This means the dependencies that your dependencies use could be updated. That's where package lock files are useful. They list not only the versions of your immediate dependencies, but also all the versions of any nested [children, grandchildren] dependencies used.
 
 When you run `npm install`, a _package-lock.json_ file is automatically generated (or updated if the file already exists). So you should already have a _package-lock.json_ file in your "packagesproject" directory.
 
@@ -18,7 +18,7 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
 
 | _package.json_ | _package-lock.json_ |
 | --- | --- |
-| `^4.17.4` | `4.17.4` |
+| `^4.17.10` | `4.17.10` |
 
 2\.  We're going to install an older version of **lodash** now. In your CLI type `npm install lodash@3.10.0` <i class="fa fa-share fa-rotate-180"></i>.
 
@@ -42,7 +42,7 @@ You should see the _package.json_ file updates with the latest version, but the 
 | --- | --- |
 | `^4.17.10` | `3.10.1` |
 
-Alright, let's check out _node_modules/lodash/package.json_ and see what version is listed in there. `4.17.4` Wait. I thought it was supposed to use the version in _package-lock.json_. Since we explicitly used the npm install command with a version (or a version tag like `latest` in this case), it automatically installs the new version in _node_modules_. However, it leaves the _package-lock.json_ at the `3.10.1` version.
+Alright, let's check out _node_modules/lodash/package.json_ and see what version is listed in there. `4.17.10` Wait. I thought it was supposed to use the version in _package-lock.json_. Since we explicitly used the npm install command with a version (or a version tag like `latest` in this case), it automatically installs the new version in _node_modules_. However, it leaves the _package-lock.json_ at the `3.10.1` version.
 
 5\. Delete the _node_modules_ folder from your directory. [Yes, the whole thing.]
 
@@ -52,7 +52,7 @@ Uh-oh! There's an error! The `ci` command can only install packages when your _p
 
 7\. Let's try installing again. In your CLI type `npm install` <i class="fa fa-share fa-rotate-180"></i>.
 
-Now the install succeeds and your _package-lock.json_ updates to the use the version defined in the _package.json_. You should see the following versions in their respective files:
+Now the install succeeds and your _package-lock.json_ updates to the version defined in the _package.json_. You should see the following versions in their respective files:
 
 | _package.json_ | _package-lock.json_ |
 | --- | --- |
@@ -79,4 +79,3 @@ You should still see the following versions in their respective files:
 | _package.json_ | _npm-shrinkwrap.json_ |
 | --- | --- |
 | `^4.17.10` | `4.17.10` |
-
