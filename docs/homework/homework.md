@@ -9,27 +9,35 @@ Remember, we're here to help.
 Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit.slack.com)
 {% endhint %}
 
-## Use the new jQuery dependency 
+## Use the new Moment dependency
 
-Your _index.js_ file already contains one way of selecting an element (`document.querySelector`). Now that you have jQuery, you can do this another way:
+At the end of the worksheet, we added the Moment library for working with dates. Now you can incorporate it into your _index.js_ file to add some fun manipulation to your wine statement:
 
-1.  In Atom, open the _index.js_ file and type the following code anywhere in the file:
+1.  In Atom, open the _index.js_ file. Add a new line after the first line that requires lodash (`var _ = require('lodash');`) and type the following code:
 
   ```javascript
-  var $ = require('jquery');
-  $('h4').css('color', 'white');
+  var moment = require('moment');
+  var today = moment().format('dddd');
+  ```
+
+1.  In the _index.js_ file, update the code setting the wine variable to the following code:
+
+  ```javascript
+  var wine = 'I like red wine on ' + today;
   ```
 
 1.  On the command line, type the browserify command again: `browserify index.js > bundle.js` <i class="fa fa-share fa-rotate-180"></i>.
 
 1.  Refresh (or reopen) _index.html_ in Chrome.
 
-Your rendered HTML file should look like this:
+Your rendered HTML file should look like this (with whatever day you're working on the homework):
 
-![](../images/index-with-jquery.png)
+![](../images/index-with-moment.png)
+
+_Check it out in Chrome again tomorrow to see the day change!_
 
 
-## Initialize your project as a git repository 
+## Initialize your project as a git repository
 
 Start tracking your progress with git. We’re going to tell git what it should _and should not_ care about.
 {% hint style="danger" %}
@@ -61,6 +69,6 @@ See the git version control worksheet from April: [bit.ly/CnCAprWork](http://bit
   {% endhint %}
 
 
-## Continue to discover new dependencies and try them out! 
+## Continue to discover new dependencies and try them out!
 
 The world is your oyster! Check out all of the packages available at [**http://www.npmjs.com**](http://www.npmjs.com).
