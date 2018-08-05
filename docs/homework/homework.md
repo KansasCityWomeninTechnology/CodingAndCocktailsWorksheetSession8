@@ -20,10 +20,10 @@ At the end of the worksheet, we added the Moment library for working with dates.
   var today = moment().format('dddd');
   ```
 
-1.  In the _index.js_ file, update the code setting the wine variable to the folowing code (note the single quotes have become backticks):
+1.  In the _index.js_ file, update the code setting the wine variable to the following code:
 
   ```javascript
-  var wine = `I like red wine on ${today}`;
+  var wine = 'I like red wine on ' + today;
   ```
 
 1.  On the command line, type the browserify command again: `browserify index.js > bundle.js` <i class="fa fa-share fa-rotate-180"></i>.
