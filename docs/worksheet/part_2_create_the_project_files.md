@@ -42,7 +42,7 @@ In Atom, if a file has been modified but not saved, the tab shows a dot. Often, 
 ![](../images/saved-file-tab.png)
   {% endhint %}
 
-1. Let's add some styles to our HTML with a bit of color. Repeat steps 1-2 to create a file named "main.css".
+1. Let's add some styles to our HTML with a bit of color. Repeat steps 1-2 to create a file named _main.css_.
 
 1. Enter the following CSS and then save the file:
 
@@ -63,7 +63,11 @@ Use the CSS worksheet from February, if you need a reminder:
 [bit.ly/CnCFebWork](http://bit.ly/CnCFebWork)
   {% endhint %}
 
-1. Repeat steps 1-2 to create a file named "index.js" (it remains empty).
+1. Create a file named _index.js_ by repeating the steps above (it remains empty).
+   
+   {% hint style='tip' %}
+Files with _js_ extensions are for JavaScript. We're leaving it empty and focusing on building out the project files for now, but we'll use the file soon as we start writing some code!
+   {% endhint %}
 
 1. In Chrome, navigate to your _index.html_ file: **file:///&lt;yourHomeDirectory&gt;/CodingAndCocktails/packagesproject/index.html**
 
