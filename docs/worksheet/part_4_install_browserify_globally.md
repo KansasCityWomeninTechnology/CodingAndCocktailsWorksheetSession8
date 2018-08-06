@@ -23,4 +23,4 @@ The `-g` flag means we're installing the **npm** Browserify package globally (ac
   -->
 
 1. When it’s done, it should look something like this:
-  ![](../images/browserify-complete.png)
+  ![](../images/browserify-install.png)

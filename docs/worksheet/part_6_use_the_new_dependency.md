@@ -2,7 +2,7 @@
 
 Now we’re ready to put the new dependency (lodash) to good use.
 
-1. In Atom, copy or type the following into _index.js_, then save again:  
+1. In Atom, open the _index.js_ file you created in part 2 and copy or type the following into that file, then save:  
 _Note: You do not need to add the comments `//L1`, etc. Those are there to help walk through what the code is doing in the below hint._
 
   ```javascript

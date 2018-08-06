@@ -165,6 +165,8 @@ When you're working on a large project, the code can get very large, so minifyin
 
   The dev server is now watching your code and will automatically reload the browser, if you make any changes.
 
+  If you see a dialog box asking if you want the application "node" to accept incoming network connections, click Allow. 
+
 1. Open _index.html_ in Chrome, and open _index.js_ in Atom. If you can, make them side-by-side, so you can see Chrome, while you make a change to the code.
 
 1. Update `white` in _index.js_ to `blue` and save the file. Chrome should automagically refresh and show you the new code.
